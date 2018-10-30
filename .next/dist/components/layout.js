@@ -8,26 +8,27 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _semanticUiReact = require('semantic-ui-react');
+
+var _header = require('./header');
+
+var _header2 = _interopRequireDefault(_header);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _jsxFileName = '/Users/ringaile/Documents/etherworkspace/kickstart/components/layout.js';
 
 exports.default = function (props) {
-	return _react2.default.createElement('div', {
+	return _react2.default.createElement(_semanticUiReact.Container, {
 		__source: {
 			fileName: _jsxFileName,
-			lineNumber: 5
+			lineNumber: 7
 		}
-	}, _react2.default.createElement('h1', {
-		__source: {
-			fileName: _jsxFileName,
-			lineNumber: 6
-		}
-	}, ' Im a header '), props.children, _react2.default.createElement('h1', {
+	}, _react2.default.createElement(_header2.default, {
 		__source: {
 			fileName: _jsxFileName,
 			lineNumber: 8
 		}
-	}, ' Im a footer '));
+	}), props.children);
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvbGF5b3V0LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwicHJvcHMiLCJjaGlsZHJlbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsQUFBTyxBQUVQOzs7Ozs7OztrQkFBZSxpQkFBUyxBQUN2Qjt3QkFDQyxjQUFBOzthQUFBO2VBQUEsQUFDQTtBQURBO0FBQUEsRUFBQSxrQkFDQSxjQUFBOzthQUFBO2VBQUE7QUFBQTtBQUFBLElBREEsQUFDQSxBQUNDLHdCQUZELEFBRU8sQUFDUCwwQkFBQSxjQUFBOzthQUFBO2VBQUE7QUFBQTtBQUFBLElBSkQsQUFDQyxBQUdBLEFBR0Q7QUFSRCIsImZpbGUiOiJsYXlvdXQuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL3JpbmdhaWxlL0RvY3VtZW50cy9ldGhlcndvcmtzcGFjZS9raWNrc3RhcnQifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvbGF5b3V0LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiQ29udGFpbmVyIiwiSGVhZGVyIiwicHJvcHMiLCJjaGlsZHJlbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQVE7O0FBQ1IsQUFBTyxBQUFZLEFBRW5COzs7Ozs7OztrQkFBZSxpQkFBUyxBQUN2Qjt3QkFDQyxBQUFDOzthQUFEO2VBQUEsQUFDQTtBQURBO0FBQUEsRUFBQSxrQkFDQSxBQUFDOzthQUFEO2VBREEsQUFDQSxBQUNDO0FBREQ7QUFBQSxXQUZELEFBQ0MsQUFFTyxBQUdSO0FBUEQiLCJmaWxlIjoibGF5b3V0LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9yaW5nYWlsZS9Eb2N1bWVudHMvZXRoZXJ3b3Jrc3BhY2Uva2lja3N0YXJ0In0=

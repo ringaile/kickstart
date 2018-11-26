@@ -27,7 +27,6 @@ class CampaignIndex extends Component{
 		return (
 		<Layout>
 			<div>
-
 			<h3>Open Campaigns</h3>
 			
 		<Button floated="right"
